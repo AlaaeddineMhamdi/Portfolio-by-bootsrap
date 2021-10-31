@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: url("hello.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.about_me {
+  background: url("hello2.jpg");
+  height: 100vh;
+
+  background-position: center center;
+  position: relative;
+  font-size: 24px;
+
+  font-family: monospace;
+}
+.p {
+  color: yellow;
+}
+.img {
+  height: 15rem;
+  margin-top: 6rem;
+}
+.img2 {
+  height: 15rem;
+  margin-top: 6rem;
+}
+
+.Welcome-text {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin: 20% 30%;
+  text-align: center;
+}
+.Welcome-text h1 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+.Welcome-text a {
+  color: aquamarine;
+  border: 1px solid #fff;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.Welcome-text a:hover {
+  background: #fff;
+  color: #333;
+}
+.my_services {
+  background: url("hello5.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  font-size: 24px;
+  color: white;
+  font-family: monospace;
+}
+.ul {
+  list-style: none;
+}
+.my_work {
+  background: url("hello6.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  font-size: 24px;
+  color: white;
+  font-family: monospace;
+}
+.footer {
+  background: url("footer.png");
+  height: 20vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  font-size: 24px;
+  color: white;
+  font-family: monospace;
+}
+.yo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 1px;
+  list-style: none;
+}
+li {
+  padding: 15px;
+}
+li a {
+  font-size: 20px;
+}
+.logo img {
+    margin-top: 5px;
+  width: 60px;
+  float: left;
+  height: auto;
+  margin-left: 100px;
+}
